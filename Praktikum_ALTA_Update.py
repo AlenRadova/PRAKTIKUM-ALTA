@@ -6,7 +6,7 @@ k = connect_to_db.cursor()
 
 k.execute("""
         UPDATE TBCars SET
-          brand = "Lamborghini"
+          price = 500000
         WHERE   
             id = 102
             """)
